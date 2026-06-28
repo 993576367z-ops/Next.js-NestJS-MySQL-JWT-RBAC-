@@ -1,0 +1,13 @@
+
+CREATE TABLE users(
+ id INT PRIMARY KEY AUTO_INCREMENT,
+ username VARCHAR(100),
+ password VARCHAR(255),
+ role VARCHAR(50)
+);
+
+CREATE TABLE customers(
+ id INT PRIMARY KEY AUTO_INCREMENT,
+ company VARCHAR(200),
+ contact VARCHAR(100)
+);
